@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Request\Get\" />
+    <Folder Include="Request\Delete\" />
+    <Folder Include="Request\Put\" />
+    <Folder Include="Response\Delete\" />
+    <Folder Include="Response\Put\" />
+    <Folder Include="Response\Post\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>

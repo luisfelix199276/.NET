@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Store.API.Model\Store.API.Model.csproj" />
+    <ProjectReference Include="..\Store.Application.Interface\Store.Application.Interface.csproj" />
+    <ProjectReference Include="..\Store.Core.Repository.Interface\Store.Core.Repository.Interface.csproj" />
+    <ProjectReference Include="..\Store.Service.Interface\Store.Core.Service.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
